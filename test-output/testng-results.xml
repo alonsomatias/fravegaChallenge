@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-22T18:19:09 ART" name="BackSuite" finished-at="2020-12-22T18:19:14 ART" duration-ms="5241">
+    <groups>
+    </groups>
+    <test started-at="2020-12-22T18:19:09 ART" name="BackTest" finished-at="2020-12-22T18:19:14 ART" duration-ms="5241">
+      <class name="com.fravega.pom.tests.BackSearchTest">
+        <test-method signature="APISearchTest()[pri:0, instance:com.fravega.pom.tests.BackSearchTest@68e965f5]" started-at="2020-12-22T18:19:09 ART" name="APISearchTest" finished-at="2020-12-22T18:19:14 ART" duration-ms="5165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APISearchTest -->
+      </class> <!-- com.fravega.pom.tests.BackSearchTest -->
+    </test> <!-- BackTest -->
+  </suite> <!-- BackSuite -->
+</testng-results>
