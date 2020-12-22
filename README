@@ -1,0 +1,16 @@
+Para ejecutar las pruebas solo es necesario posicionarse sobre el proyecto e ingresar
+
+mvn test
+
+En el caso de realizar las pruebas mediante la IDE eclipse puede presionar boton 
+derecho sobre la clase Test que desea ejecutar y elegir la opcion Run As/Tesng Test
+
+El paquete dispone de un chromedriver para Mac y otro para windows, y de forma automatica
+detectara el sistema operativo donde se ejecutara, y que chromedrive necesitara.
+
+Si desea ejecutarlo en linux debera descargar de la pagina 
+https://chromedriver.chromium.org/
+y agregar una excepcion en la clase DriverManager ubicado en el paquete com.fravega.pom.driver
+
+Me quede sin tiempo para una herramienta para generar reportes. Esto seria una version MVP y en una siguiente interacion
+podria sumar Allure como herramienta de reportes.
